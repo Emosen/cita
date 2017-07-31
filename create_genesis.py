@@ -29,6 +29,7 @@ def make_json():
     admin = dict(pubkey=pubkey,crypto=crypto,identifier=identifier)
     addresses = ["0x8e1d62d3872a07a04449e8549c031da23e818c2caa3b0e72bc5a5ed39443680a","0x8e1d62d3872a07a04449e8549c031da23e818c2caa3b0e72bc5a5ed39443680b","0x8e1d62d3872a07a04449e8549c031da23e818c2caa3b0e72bc5a5ed39443680c","0x8e1d62d3872a07a04449e8549c031da23e818c2caa3b0e72bc5a5ed39443680d"]
     code0 = get_code("contracts/AccountManager.sol")
+
     code1 = get_code("contracts/AccountManager.sol")
     code2 = get_code("contracts/PermissionManager.sol")
     code3 = get_code("contracts/QuotaManager.sol")
